@@ -1,0 +1,7 @@
+{
+  "name": "IPTrack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
