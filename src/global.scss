@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,48 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .row {
+    display: block !important;
+    margin-left: 0 !important;
+  }
+  .col-sm-3 {
+    max-width: inherit !important;
+  }
+
+  .hdimg {
+    height: 273px !important;
+  }
+
+  .card {
+    top: 8% !important;
+  }
+
+  .b-right {
+    border-right: none !important;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  #map {
+    padding-top: 30% !important;
+  }
+
+  .leaflet-marker-icon {
+    margin-top: 0 !important;
+  }
+}
